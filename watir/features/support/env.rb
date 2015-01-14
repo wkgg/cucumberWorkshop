@@ -1,7 +1,7 @@
 require 'watir-webdriver'
 
 Browser = Watir::Browser
-browser = Browser.new :chrome
+browser = Browser.new :firefox
 
 Before do
   @browser = browser
